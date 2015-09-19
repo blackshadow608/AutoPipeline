@@ -15,7 +15,7 @@ public class PipelineView {
         mainFrame.setVisible(true);
         mainFrame.getContentPane().setBackground(Color.WHITE);
         mainFrame.pack();
-//        addLines(panel);
+        addLines(panel);
     }
 
     public void addLines(PipelinePanel panel){
