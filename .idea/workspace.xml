@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24400d03-1cab-4956-8ad9-f7fa12adcb64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/cahssie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/car.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/engine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/images.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/salon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/suspension.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/transmission.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/autoModel/Auto.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AutoPipeline.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/BodyStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/EngineStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipelineView/MainClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/Pipeline.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/PipelinePanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/PipelineStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/SalonStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/SuspensionStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/TransmissionStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pipeLineModel/WheelsStep.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="autoPipeline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +78,7 @@
       <file leaf-file-name="PipelineView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.5766621" vertical-offset="0" max-vertical-offset="737">
+            <state line="25" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.77696526" vertical-offset="0" max-vertical-offset="547">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -606,24 +579,32 @@
       <workItem from="1441436892941" duration="608000" />
       <workItem from="1441537295418" duration="6861000" />
       <workItem from="1442047251739" duration="3218000" />
-      <workItem from="1442645335659" duration="1753000" />
+      <workItem from="1442645335659" duration="2821000" />
     </task>
     <task id="LOCAL-00001" summary="start commit">
       <created>1442646893066</created>
       <updated>1442646893066</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="start commit 2">
+      <created>1442647121539</created>
+      <updated>1442647121539</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add pipeline">
+      <created>1442648178136</created>
+      <updated>1442648178136</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12440000" />
+    <option name="totallyTimeSpent" value="13508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -641,8 +622,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11659193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11659193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -663,7 +644,9 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="start commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="start commit" />
+    <MESSAGE value="start commit 2" />
+    <MESSAGE value="add pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pipeline" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -913,7 +896,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="576" selection-end="576" vertical-scroll-proportion="0.5766621" vertical-offset="0" max-vertical-offset="737">
+        <state line="25" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.77696526" vertical-offset="0" max-vertical-offset="547">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
