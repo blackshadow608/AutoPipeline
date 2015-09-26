@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24400d03-1cab-4956-8ad9-f7fa12adcb64" name="Default" comment="">
+    <list default="true" id="24400d03-1cab-4956-8ad9-f7fa12adcb64" name="Default" comment="add pipeline&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uiView/MovePipeline.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pipelineView/MainClass.java" afterPath="$PROJECT_DIR$/src/pipelineView/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uiView/PipelinePanel.java" afterPath="$PROJECT_DIR$/src/uiView/PipelinePanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uiView/PipelineView.java" afterPath="$PROJECT_DIR$/src/uiView/PipelineView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\cahssie.png" afterPath="$PROJECT_DIR$/cahssie.png" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\car.png" afterPath="$PROJECT_DIR$/car.png" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\engine.png" afterPath="$PROJECT_DIR$/engine.png" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\images.png" afterPath="$PROJECT_DIR$/images.png" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\salon.png" afterPath="$PROJECT_DIR$/salon.png" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\suspension.png" afterPath="$PROJECT_DIR$/suspension.png" />
+      <change type="MOVED" beforePath="D:\javaproj\AutoPipeline\src\uiView\transmission.png" afterPath="$PROJECT_DIR$/transmission.png" />
     </list>
     <ignored path="autoPipeline.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,19 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Auto.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/autoModel/Auto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PipelineView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PipelineView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.77696526" vertical-offset="0" max-vertical-offset="547">
+            <state line="24" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="629">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,7 +91,20 @@
       <file leaf-file-name="PipelinePanel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uiView/PipelinePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="64" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="17" column="42" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="816">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1097#1311#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovePipeline.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/uiView/MovePipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="1" selection-start="314" selection-end="314" vertical-scroll-proportion="0.559415" vertical-offset="0" max-vertical-offset="547">
               <folding />
             </state>
           </provider>
@@ -129,7 +144,7 @@
       <file leaf-file-name="SuspensionStep.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pipeLineModel/SuspensionStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+            <state line="11" column="20" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -158,10 +173,8 @@
       <file leaf-file-name="MainClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pipelineView/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="36" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="24" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,8 +203,9 @@
         <option value="$PROJECT_DIR$/src/pipeLineModel/BodyStep.java" />
         <option value="$PROJECT_DIR$/src/pipeLineModel/Pipeline.java" />
         <option value="$PROJECT_DIR$/src/pipelineView/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/uiView/PipelinePanel.java" />
         <option value="$PROJECT_DIR$/src/uiView/PipelineView.java" />
+        <option value="$PROJECT_DIR$/src/uiView/PipelinePanel.java" />
+        <option value="$PROJECT_DIR$/src/uiView/MovePipeline.java" />
       </list>
     </option>
   </component>
@@ -229,6 +243,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -279,10 +294,49 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pipelineView" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoPipeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoPipeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pipeLineModel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoPipeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoPipeline" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoModel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,8 +352,14 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/java_project" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaproj\AutoPipeline" />
+      <recent name="D:\javaproj\AutoPipeline\src" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MainClass">
     <configuration default="false" name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -579,7 +639,8 @@
       <workItem from="1441436892941" duration="608000" />
       <workItem from="1441537295418" duration="6861000" />
       <workItem from="1442047251739" duration="3218000" />
-      <workItem from="1442645335659" duration="2821000" />
+      <workItem from="1442645335659" duration="5024000" />
+      <workItem from="1443257218834" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="start commit">
       <created>1442646893066</created>
@@ -593,18 +654,22 @@
       <created>1442648178136</created>
       <updated>1442648178136</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add pipeline&#10;">
+      <created>1442648189002</created>
+      <updated>1442648189002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13508000" />
+    <option name="totallyTimeSpent" value="20064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -616,14 +681,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11659193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24920128" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -646,7 +711,8 @@
     <MESSAGE value="start commit" />
     <MESSAGE value="start commit 2" />
     <MESSAGE value="add pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pipeline" />
+    <MESSAGE value="add pipeline&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pipeline&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -658,6 +724,88 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/autoModel/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="629">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uiView/PipelinePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="33" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1311#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipeLineModel/TransmissionStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding>
+            <marker date="1441541034193" expanded="true" signature="192:259" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipeLineModel/SalonStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding>
+            <marker date="1441541034205" expanded="true" signature="185:245" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipeLineModel/BodyStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipeLineModel/SuspensionStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipeLineModel/EngineStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="26" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+          <folding>
+            <marker date="1441541034203" expanded="true" signature="186:247" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipeLineModel/PipelineStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipelineView/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="36" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/autoModel/Auto.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="15" selection-start="73" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1479">
           <folding />
         </state>
@@ -666,9 +814,7 @@
     <entry file="file://$PROJECT_DIR$/src/pipeLineModel/WheelsStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-          <folding>
-            <marker date="1441541034200" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -730,9 +876,7 @@
     <entry file="file://$PROJECT_DIR$/src/pipelineView/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="29" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,9 +890,7 @@
     <entry file="file://$PROJECT_DIR$/src/pipeLineModel/WheelsStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
-          <folding>
-            <marker date="1441541034200" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -837,9 +979,7 @@
     <entry file="file://$PROJECT_DIR$/src/pipeLineModel/WheelsStep.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <marker date="1441541034200" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -871,15 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pipelineView/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/autoModel/Auto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="13" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1003">
@@ -887,19 +1018,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uiView/PipelinePanel.java">
+    <entry file="file://$PROJECT_DIR$/../GraphicsAlgorithm/GraphicsAlgorithm.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pipelineView/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="574" selection-end="574" vertical-scroll-proportion="0.77696526" vertical-offset="0" max-vertical-offset="547">
+        <state line="24" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="0.0" vertical-offset="59" max-vertical-offset="629">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uiView/PipelinePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="816">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1097#1311#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uiView/MovePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="1" selection-start="314" selection-end="314" vertical-scroll-proportion="0.559415" vertical-offset="0" max-vertical-offset="547">
+          <folding />
         </state>
       </provider>
     </entry>
