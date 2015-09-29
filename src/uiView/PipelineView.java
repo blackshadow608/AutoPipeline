@@ -10,8 +10,6 @@ import java.awt.event.ActionListener;
  */
 public class PipelineView {
     private  JFrame mainFrame = new JFrame();
-    private PipelinePanel panel = new PipelinePanel();
-    private PipelinePanel panel2= new PipelinePanel();
     Box box = Box.createVerticalBox();
 
     public PipelineView(){
@@ -19,13 +17,17 @@ public class PipelineView {
         mainFrame.setVisible(true);
         mainFrame.getContentPane().setBackground(Color.WHITE);
         mainFrame.add(box);
-        addLines(panel);
-        addLines(panel2);
+        box.setPreferredSize(new Dimension(1970,500));
+        addLine();
+        addLine();
         mainFrame.pack();
     }
 
-    public void addLines(PipelinePanel panel){
+    public void addLine(){
+        PipelinePanel panel = new PipelinePanel();
+//        panel.setPreferredSize(new Dimension(1500,300));
         box.add(panel);
     }
+
 
 }
