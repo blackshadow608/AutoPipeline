@@ -25,6 +25,7 @@ public class PipelinePanel extends JPanel {
     Timer timer = new Timer();
     private int iterations=0;
     private List<Icon> listOfSteps = new ArrayList<Icon>();
+    private List<JLabel> listLabels = new ArrayList<JLabel>();
 
     public PipelinePanel(){
         this.setLayout(new BorderLayout());
@@ -36,27 +37,46 @@ public class PipelinePanel extends JPanel {
         listOfSteps.add(transmission);
         listOfSteps.add(salon);
         listOfSteps.add(car);
+        listLabels.add(imageChassis);
         setBackground(Color.WHITE);
         this.add(imageChassis,BorderLayout.EAST);
         this.add(startButton,BorderLayout.WEST);
         initListeners();
     }
 
-    public void DoStep(){
-        if(nextStep(iterations)){
-            int numberIcon = listOfSteps.indexOf(imageChassis.getIcon());
-            if(numberIcon + 1 < listOfSteps.size()){
-                numberIcon++;
-            }
-            imageChassis.setIcon(listOfSteps.get(numberIcon));
+    public void moveLabels(){
+        for (JLabel currLabel: listLabels){
+            currLabel.setLocation(currLabel.getX()-1, currLabel.getY());
         }
-        imageChassis.setLocation(imageChassis.getX()-1, imageChassis.getY());
+    }
+
+    private void setNextIcon(){
+        if(nextStep(iterations)){
+            for(JLabel iconLabel: listLabels){
+                int numberIcon = listOfSteps.indexOf(iconLabel.getIcon());
+                if(numberIcon + 1 < listOfSteps.size()){
+                    numberIcon++;
+                }
+                iconLabel.setIcon(listOfSteps.get(numberIcon));
+            }
+            JLabel label = new JLabel(chassie);
+            this.add(label,BorderLayout.EAST);
+            listLabels.add(label);
+            this.revalidate();
+//            label.repaint();
+        }
+
+    }
+
+    public void DoStep(){
+        setNextIcon();
+        moveLabels();
         iterations++;
         this.repaint();
     }
 
     private boolean nextStep(int pixels){
-        if(pixels == 200){
+        if(pixels == 300){
             timer.cancel();
             timer = new Timer();
             move = new MovePipeline(this);
@@ -65,6 +85,10 @@ public class PipelinePanel extends JPanel {
             return true;
         }
         return false;
+    }
+
+    public void stopLine(){
+        timer.cancel();
     }
 
     private void initListeners(){

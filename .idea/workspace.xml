@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24400d03-1cab-4956-8ad9-f7fa12adcb64" name="Default" comment="Run pipeline&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cahssie.png" afterPath="$PROJECT_DIR$/cahssie.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/engine.png" afterPath="$PROJECT_DIR$/engine.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images.png" afterPath="$PROJECT_DIR$/images.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/salon.png" afterPath="$PROJECT_DIR$/salon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/suspension.png" afterPath="$PROJECT_DIR$/suspension.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transmission.png" afterPath="$PROJECT_DIR$/transmission.png" />
+    <list default="true" id="24400d03-1cab-4956-8ad9-f7fa12adcb64" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uiView/PipelinePanel.java" afterPath="$PROJECT_DIR$/src/uiView/PipelinePanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uiView/PipelineView.java" afterPath="$PROJECT_DIR$/src/uiView/PipelineView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="autoPipeline.iws" />
@@ -77,7 +70,7 @@
       <file leaf-file-name="MovePipeline.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uiView/MovePipeline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
+            <state line="16" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -86,9 +79,11 @@
       <file leaf-file-name="PipelinePanel.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/uiView/PipelinePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="47" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.21296297" vertical-offset="479" max-vertical-offset="1343">
+            <state line="66" column="9" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.742268" vertical-offset="690" max-vertical-offset="1751">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#958#964#0" expanded="true" />
+                <element signature="e#1019#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,7 +92,7 @@
       <file leaf-file-name="PipelineView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="663">
+            <state line="18" column="0" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -622,7 +617,8 @@
       <workItem from="1442645335659" duration="5024000" />
       <workItem from="1443257218834" duration="9863000" />
       <workItem from="1443338468028" duration="5740000" />
-      <workItem from="1443552108881" duration="371000" />
+      <workItem from="1443552108881" duration="2960000" />
+      <workItem from="1443727774698" duration="2175000" />
     </task>
     <task id="LOCAL-00001" summary="start commit">
       <created>1442646893066</created>
@@ -644,11 +640,15 @@
       <created>1443261606343</created>
       <updated>1443261606343</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="build car&#10;">
+      <created>1443552521921</created>
+      <updated>1443552521921</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31685000" />
+    <option name="totallyTimeSpent" value="36449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
@@ -667,18 +667,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24653888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32286996" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31614348" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -699,7 +699,8 @@
     <MESSAGE value="add pipeline" />
     <MESSAGE value="add pipeline&#10;" />
     <MESSAGE value="Run pipeline&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Run pipeline&#10;" />
+    <MESSAGE value="build car&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="build car&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,6 +773,8 @@
         <state line="16" column="33" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="561">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#958#964#0" expanded="true" />
+            <element signature="e#1019#1027#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1041,11 +1044,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/uiView/MovePipeline.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/javax/swing/JFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="604" column="0" selection-start="21705" selection-end="21705" vertical-scroll-proportion="0.33273056" vertical-offset="9438" max-vertical-offset="15436" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pipelineView/MainClass.java">
@@ -1055,9 +1056,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/javax/swing/JFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/uiView/MovePipeline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="604" column="0" selection-start="21705" selection-end="21705" vertical-scroll-proportion="0.33273056" vertical-offset="9438" max-vertical-offset="15436" />
+        <state line="16" column="18" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uiView/PipelineView.java">
@@ -1069,9 +1072,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uiView/PipelinePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="47" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.21296297" vertical-offset="479" max-vertical-offset="1343">
+        <state line="66" column="9" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.742268" vertical-offset="690" max-vertical-offset="1751">
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#958#964#0" expanded="true" />
+            <element signature="e#1019#1027#0" expanded="true" />
           </folding>
         </state>
       </provider>
